@@ -2,11 +2,11 @@
 require File.expand_path('../lib/spawnpocassets/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.authors       = ["Greg Newton"]
+  gem.email         = ["gdndude@gmail.com"]
+  gem.description   = %q{Rails3 assets for Spawn POC}
+  gem.summary       = %q{Rails3 Assets, source which can be built into a .deb package using fpm}
+  gem.homepage      = "https://github.com/gdndude/spawnpocassets"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
