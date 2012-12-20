@@ -1,8 +1,18 @@
-# Spawnpocassets
+# Spawnpocassets Initial Version - Ruby Gem 12/19/2012
 
-TODO: Write a gem description
+##Author:
 
-## Installation
+Greg Newton - gdndude@gmail.com
+
+##Location:
+
+git@github.com:gndude/spawnpocassets
+
+##Summary:
+
+This gem allows distinct packaging of assets from the main Rails3 poc application
+
+## Installation with Rails3 App
 
 Add this line to your application's Gemfile:
 
@@ -16,14 +26,8 @@ Or install it yourself as:
 
     $ gem install spawnpocassets
 
-## Usage
+## Installation using Debian / Ubuntu
 
-TODO: Write usage instructions here
+Refer to the spawnscript repo
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+	https://github.com/gdndude/spawnscript
